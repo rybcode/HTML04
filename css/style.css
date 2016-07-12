@@ -157,6 +157,10 @@ body {
 }
 .main__sidebar p {
   margin-top: 4px;
+    max-width: 169px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .main__sidebar h2 {
   font-size: 18px;
